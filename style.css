@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+}
+header h1{
+    text-align: center;
+}
+
+
+#login{ 
+    color: white;
+background-color: rgb(243, 231, 57);
+margin-top: 15vh;
+text-align: center;
+width: 30%;
+margin-left: 35vw;
+margin-right: 35vw;
+padding-top: 5vh;
+padding-bottom: 10vh;
+border-radius: 10px;
+}
+label, input{
+    margin: 20px 0px 30px 0px ;
+}
+
+a{
+    
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: chocolate;
+}
+footer p {
+    text-align: center;
+}
